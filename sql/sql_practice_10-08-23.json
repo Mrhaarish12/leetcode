@@ -1,0 +1,17 @@
+[
+  {
+    "Tables_in_company": "branch"
+  },
+  {
+    "Tables_in_company": "branch_supplier"
+  },
+  {
+    "Tables_in_company": "client"
+  },
+  {
+    "Tables_in_company": "employee"
+  },
+  {
+    "Tables_in_company": "works_with"
+  }
+]
