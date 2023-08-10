@@ -62,6 +62,12 @@ Output:
 
 -- code 
 -- # Write your MySQL query statement below
-select name as Customers
-from Customers
-where Id NOT IN (select CustomerId from Orders)
+-- select name as Customers
+-- from Customers
+-- where Id NOT IN (select CustomerId from Orders)
+
+select name from salesperson where sales_id not IN
+(
+    select sales_id from orders where com_id in
+    (select com_id from company where name = "RED")
+)
